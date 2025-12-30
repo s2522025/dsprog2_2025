@@ -16,6 +16,7 @@ class DigitButton(CalcButton):
         super().__init__(text, button_clicked, expand)
         self.bgcolor = ft.Colors.WHITE24
         self.color = ft.Colors.WHITE
+        self.border_radius = ft.border_radius.all(12)
 
 
 class ActionButton(CalcButton):
